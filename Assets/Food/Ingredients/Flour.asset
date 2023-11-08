@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bb37a5e4810a7744a6b9d1f88712c1d, type: 3}
+  m_Name: Flour
+  m_EditorClassIdentifier: 
+  type: 0
+  itemName: 'Flour '
+  itemPerSlot: 3
+  icon: {fileID: 21300000, guid: dbb422b76f20ce645b80a3327b945f8c, type: 3}
+  prefab: {fileID: 2428776438141324051, guid: 5e8e4b33f47633948b544ef6b835ff9e, type: 3}
+  itemInformation: 
