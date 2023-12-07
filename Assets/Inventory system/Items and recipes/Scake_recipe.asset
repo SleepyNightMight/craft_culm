@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31dbb8e3288cbd648bd82ec96ddc8f47, type: 3}
+  m_Name: Scake_recipe
+  m_EditorClassIdentifier: 
+  item1: {fileID: 11400000, guid: 276934d2a3cd1524fbdbc7a8f5825541, type: 2}
+  itema1IsConsumed: 0
+  item2: {fileID: 11400000, guid: 59965ac56009817439aa64f39be8f8e5, type: 2}
+  item2IsConsumed: 0
+  itemToProduce: {fileID: 11400000, guid: e2f5e5eccf3f9a2489135583560aae07, type: 2}
