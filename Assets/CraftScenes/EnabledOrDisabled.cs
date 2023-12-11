@@ -6,6 +6,7 @@ public class EnabledOrDisabled : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject strawcake;
+    //public GameObject lybTea;
 
     public void Trigger()
     {
