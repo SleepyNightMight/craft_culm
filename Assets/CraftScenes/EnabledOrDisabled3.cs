@@ -16,10 +16,8 @@ public class EnabledOrDisabled3 : MonoBehaviour
     public GameObject recname2;
     public GameObject recname3;
 
-    public void Trigger()
-    {
-        if (strawberryui.activeInHierarchy == true && cremeui.activeInHierarchy == true && vanillaui.activeInHierarchy == true && flourui.activeInHierarchy == true)
-        {
+    public void Trigger(){
+        if (strawberryui.activeInHierarchy == true && cremeui.activeInHierarchy == true && vanillaui.activeInHierarchy == true && flourui.activeInHierarchy == true){
             strawberryui.SetActive(false);
             flourui.SetActive(false);
             vanillaui.SetActive(false);
@@ -29,16 +27,28 @@ public class EnabledOrDisabled3 : MonoBehaviour
             lbTea.SetActive(true);
             recname2.SetActive(true);
         }
-        else
-        {
-            strawberryui.SetActive(true);
-            flourui.SetActive(true);
-            vanillaui.SetActive(true);
-            cremeui.SetActive(true);
-            recname1.SetActive(true);
-            
-            lbTea.SetActive(false);
-            recname2.SetActive(false);
+        else {
+            if (strawberryui.activeInHierarchy == true && cremeui.activeInHierarchy == true && vanillaui.activeInHierarchy == true && flourui.activeInHierarchy == true)
+            {
+                strawberryui.SetActive(true);
+                flourui.SetActive(true);
+                vanillaui.SetActive(true);
+                cremeui.SetActive(true);
+                recname1.SetActive(true);
+
+                lbTea.SetActive(false);
+                recname2.SetActive(false);
+            }
+            else
+            {
+                lbTea.SetActive(false);
+                recname2.SetActive(false);
+
+                whitept.SetActive(true);
+                recname3.SetActive(true);
+            }
         }
+
     }
+    
 }
